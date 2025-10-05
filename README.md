@@ -189,15 +189,9 @@ npm install
 Create a `.env.local` file in the project root:
 
 ```env
-# Database
-MONGODB_URI=your_mongodb_connection_string
-
-# Authentication
-NEXTAUTH_SECRET=your_nextauth_secret_key
-NEXTAUTH_URL=http://localhost:3000
-
-# Application
-NEXT_PUBLIC_APP_NAME=Password Vault
+MONGODB_URI=""
+JWT_SECRET=""
+NEXT_PUBLIC_APP_NAME=PasswordVault
 ```
 
 **Generate secrets:**
